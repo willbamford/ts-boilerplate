@@ -3,7 +3,7 @@
 - TypeScript
 - React (with support for Hooks)
 - Styled Components 4
-- Webpack 4 with `ts-loader`
+- Webpack 4 with `ts-loader` and `webpack-bundle-analyzer`
 - Babel 7 with `preset-typescript` and following `plugins`:
   - `syntax-dynamic-import`
   - `proposal-object-rest-spread`
@@ -15,8 +15,12 @@
 
 ## TODO
 
-- [x] SVGs (`svgr`)
-- [x] Font loading
+- [ ] Webpack performance analyzer
+- [ ] Test coverage
+- [ ] Bundle size
+- [ ] Sourcemaps
+- [ ] SVGs (`svgr`)
+- [ ] Font loading
 
 ## Notes
 
