@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --mode development --open",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "test": "jest",
+    "test": "jest --coverage",
     "lint": "eslint src/**",
     "typecheck": "tsc --noEmit",
     "size": "size-limit"
