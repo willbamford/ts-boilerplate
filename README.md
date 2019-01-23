@@ -4,18 +4,18 @@
 - React (with support for Hooks)
 - Styled Components 4
 - Webpack 4 with `ts-loader`
-- Babel 7 with `preset-typescript` and ...
-  - `plugin-syntax-dynamic-import`
-  - `plugin-proposal-object-rest-spread`
-  - `plugin-proposal-class-properties`
+- Babel 7 with `preset-typescript` and following `plugins`:
+  - `syntax-dynamic-import`
+  - `proposal-object-rest-spread`
+  - `proposal-class-properties`
 - Jest with `jest-styled-components`
-- react-testing-library
+- react-testing-library (not Enzyme)
 - Airbnb ESLint (not TSLint)
 - Prettier
 
 ## TODO
 
-- [x] SVG loading (`svgr`)
+- [x] SVGs (`svgr`)
 - [x] Font loading
 
 ## Notes
