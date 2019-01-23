@@ -9,7 +9,8 @@
     "build": "webpack --mode production",
     "test": "jest",
     "lint": "eslint src/**",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "size": "size-limit"
   },
   "author": "WebSeed <w.bamford@gmail.com>",
   "license": "MIT",
@@ -45,6 +46,7 @@
     "jest-styled-components": "^6.3.1",
     "prettier": "^1.16.1",
     "react-testing-library": "^5.4.4",
+    "size-limit": "^0.21.1",
     "ts-loader": "^5.3.3",
     "typescript": "^3.2.4",
     "webpack": "^4.29.0",

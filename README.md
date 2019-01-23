@@ -15,12 +15,12 @@
 
 ## TODO
 
-- [ ] Webpack performance analyzer
-- [ ] Test coverage
 - [ ] Bundle size
+- [ ] Test coverage
 - [ ] Sourcemaps
 - [ ] SVGs (`svgr`)
 - [ ] Font loading
+- [x] Webpack performance analyzer
 
 ## Notes
 
