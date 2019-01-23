@@ -1,4 +1,4 @@
-// import * as React from 'react'
+import * as React from 'react'
 import dummy from './dummy'
 
 console.log('dummy', dummy)

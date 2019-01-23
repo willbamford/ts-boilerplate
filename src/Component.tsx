@@ -1,10 +1,5 @@
 import * as React from 'react'
 
-const C = () => (
-  <div>
-    <p>One</p>
-    <p>Two</p>
-  </div>
-)
+const MyComponent = () => <div data-testid="component-id">Hello World</div>
 
-export default C
+export default MyComponent
