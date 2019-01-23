@@ -20,7 +20,7 @@
 - [ ] Font loading
 - [x] Test coverage
 - [x] Bundle size
-- [x] Webpack performance analyzer
+- [x] Webpack bundle analyzer (on production build)
 
 ## Notes
 
