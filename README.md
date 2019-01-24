@@ -18,6 +18,7 @@
 - [ ] Sourcemaps
 - [ ] SVGs (`svgr`)
 - [ ] Font loading
+- [ ] Look into [`preload-webpack-plugin`](https://github.com/GoogleChromeLabs/preload-webpack-plugin)
 - [x] Test coverage
 - [x] Bundle size
 - [x] Webpack bundle analyzer (on production build)

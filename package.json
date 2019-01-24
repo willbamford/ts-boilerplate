@@ -10,7 +10,8 @@
     "test": "jest --coverage",
     "lint": "eslint src/**",
     "typecheck": "tsc --noEmit",
-    "size": "size-limit"
+    "size": "size-limit",
+    "sandbox": "babel src/sandbox.ts -d . -w --extensions '.ts'"
   },
   "author": "WebSeed <w.bamford@gmail.com>",
   "license": "MIT",
@@ -26,6 +27,7 @@
     "@babel/preset-typescript": "^7.1.0",
     "@types/jest": "^23.3.13",
     "@types/react": "^16.7.20",
+    "@types/styled-components": "^4.1.6",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "11.0.0-beta.0",
     "babel-jest": "^23.6.0",
@@ -55,6 +57,7 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
+    "@types/react-dom": "^16.0.11",
     "react": "^16.8.0-alpha.1",
     "react-dom": "^16.8.0-alpha.1",
     "styled-components": "^4.1.3"
