@@ -16,6 +16,7 @@ A boilerplate project to get started with TypeScript, React and Styled Component
 - react-testing-library (not Enzyme)
 - Airbnb ESLint (not TSLint)
 - Prettier
+- stylelint (configured for Styled Components)
 
 ## Install
 
@@ -37,10 +38,12 @@ See package.json scripts for full list of commands.
 
 ## TODO
 
+- [ ] Use SC [`theme`](https://www.styled-components.com/docs/api#define-a-theme-interface)
 - [ ] Sourcemaps
 - [ ] SVGs (`svgr`)
 - [ ] Font loading
 - [ ] Look into [`preload-webpack-plugin`](https://github.com/GoogleChromeLabs/preload-webpack-plugin)
+- [ ] Use [`typescript-plugin-styled-components`](https://github.com/Igorbek/typescript-plugin-styled-components)
 - [x] Test coverage
 - [x] Bundle size
 - [x] Webpack bundle analyzer (on production build)

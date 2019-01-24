@@ -126,21 +126,21 @@ testUnion(5)
 // Intersection Type
 
 /* eslint-disable no-restricted-syntax, guard-for-in, no-prototype-builtins */
-function extend<T, U>(first: T, second: U): T & U {
-  const result = <T & U>{}
-  for (const id in first) {
-    ;(<any>result)[id] = first[id]
-  }
-  for (const id in second) {
-    if (!result.hasOwnProperty(id)) {
-      ;(<any>result)[id] = second[id]
-    }
-  }
-  return result
-}
+// function extend<T, U>(first: T, second: U): T & U {
+//   const result = <T & U>{}
+//   for (const id in first) {
+//     ;(<any>result)[id] = first[id]
+//   }
+//   for (const id in second) {
+//     if (!result.hasOwnProperty(id)) {
+//       ;(<any>result)[id] = second[id]
+//     }
+//   }
+//   return result
+// }
 
-const value = extend({ a: 'hello' }, { b: 42 })
-log(value)
+// const value = extend({ a: 'hello' }, { b: 42 })
+// log(value)
 /* eslint-enable no-restricted-syntax, guard-for-in, no-prototype-builtins */
 
 // Dummy export to fix typecheck issue

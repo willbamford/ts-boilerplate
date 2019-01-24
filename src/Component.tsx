@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const StyledComponent = styled.div`
   background-color: green;
+  font-size: 12px;
 `
 
 const MyComponent = () => (
