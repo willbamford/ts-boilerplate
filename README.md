@@ -1,5 +1,9 @@
 # TS Boilerplate
 
+A boilerplate project to get started with TypeScript, React and Styled Components.
+
+## Stack
+
 - TypeScript
 - React (with support for Hooks)
 - Styled Components 4
@@ -12,6 +16,24 @@
 - react-testing-library (not Enzyme)
 - Airbnb ESLint (not TSLint)
 - Prettier
+
+## Install
+
+Swap out APP_NAME for your project name (you will still need to manually update the package.json name after install):
+
+```
+curl -L https://github.com/WebSeed/ts-boilerplate/archive/master.zip | tar zx
+mv ts-boilerplate-master APP_NAME && cd APP_NAME
+yarn
+```
+
+Then:
+
+```
+yarn start
+```
+
+See package.json scripts for full list of commands.
 
 ## TODO
 
