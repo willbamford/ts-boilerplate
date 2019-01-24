@@ -9,9 +9,6 @@
 
 */
 
-// Dummy export to fix typecheck issue
-export {}
-
 const log = (...args: any[]) => console.log(...args)
 
 // Types can be implicit
@@ -21,6 +18,10 @@ log('foo', foo)
 // ... or explicit (using postfix type annotations)
 const bar: string = 'Hello world'
 log('bar', bar)
+
+interface V {
+  v: number
+}
 
 // Types are "structural" (not nominal) - support duck-typing
 // composed three annotations
@@ -32,9 +33,9 @@ interface Point3D {
 
 // Inline type annotation
 let AnotherPoint3D: {
-  x: number
-  y: number
-  z?: number
+  xx: number
+  yy: number
+  zz?: number
 }
 
 const point: Point3D = { x: 5, y: 10 }
@@ -138,6 +139,9 @@ function extend<T, U>(first: T, second: U): T & U {
   return result
 }
 
-let x = extend({ a: 'hello' }, { b: 42 })
-log(x)
+const value = extend({ a: 'hello' }, { b: 42 })
+log(value)
 /* eslint-enable no-restricted-syntax, guard-for-in, no-prototype-builtins */
+
+// Dummy export to fix typecheck issue
+export {}

@@ -9,13 +9,6 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  rules: {
-    'no-undef': 'off',
-    'react/jsx-filename-extension': [
-      1,
-      { extensions: ['.js', '.jsx', '.ts', '.tsx'] }
-    ]
-  },
   settings: {
     'import/resolver': {
       node: {
@@ -23,5 +16,12 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx']
       }
     }
+  },
+  rules: {
+    'no-undef': 'off',
+    'react/jsx-filename-extension': [
+      1,
+      { extensions: ['.js', '.jsx', '.ts', '.tsx'] }
+    ]
   }
 }
